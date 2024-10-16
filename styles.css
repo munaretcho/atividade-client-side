@@ -1,0 +1,160 @@
+/* Reset básico para remover estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo com fontes e altura ajustada */
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Seção principal da landing page */
+  section {
+    width: 100%;
+    padding: 60px 15px;
+    text-align: center;
+  }
+  
+  .bg-primary {
+    background-color: #1d4ed8; /* Azul escuro para contrastar bem com textos */
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .btn {
+    font-size: 1.125rem;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-light {
+    background-color: #fff;
+    color: #1d4ed8;
+    border: 2px solid #fff;
+  }
+  
+  .btn-light:hover {
+    background-color: #e2e8f0; /* Cinza claro no hover */
+    color: #1d4ed8;
+  }
+  
+  /* Estilos do formulário de cadastro */
+  #formSection {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+    display: none; /* Escondido até ser exibido via JS */
+  }
+  
+  .card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #1d4ed8; /* Cor primária */
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .form-check-input {
+    margin-right: 0.5rem;
+  }
+  
+  .btn-primary {
+    background-color: #1d4ed8;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2563eb; /* Cor mais clara no hover */
+  }
+  
+  .card {
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 0;
+  }
+  
+  .card-header {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    p.lead {
+      font-size: 1.125rem;
+    }
+  
+    .container {
+      padding: 0 15px;
+    }
+  
+    .card {
+      margin: 0;
+    }
+  }
+  
